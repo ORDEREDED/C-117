@@ -1,0 +1,33 @@
+body{
+background-image: url("Rainbow\ Rose.jpg");
+background-position: center;
+background-size: cover;
+}
+.btn-info{
+font-size:20px;
+}
+.btn-danger{
+font-size:20px;
+}
+canvas{
+animation-name: Locate;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+@keyframes Locate{
+0%{
+box-shadow: 5px 5px 45px rgb(red, green, blue);
+}
+25%{
+    box-shadow: 5px 5px 45px cornflowerblue;
+    }
+    50%{
+        box-shadow: 5px 5px 45px mediumaquamarine;
+        }
+        75%{
+            box-shadow: 5px 5px 45px rgb(77, 3, 70);
+            }
+            100%{
+                box-shadow: 5px 5px 45px rgb(58, 7, 11);
+                }
+}
